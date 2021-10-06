@@ -38,7 +38,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /test
         backend:
           serviceName: aspnetapp
           servicePort: 8080
